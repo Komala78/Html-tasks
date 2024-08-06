@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            text-decoration: none;
+            box-sizing:border-box ;
+        }
+        .wrapper{
+            display:flex;
+            justify-content: center;
+            background-color:black;
+        }
+        a{
+            position: relative;
+            display :inline-block;
+            padding: 10px ;
+            letter-spacing: 4px;
+            color: #03e9f4;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transform: 0.5s;
+            overflow: hidden;
+            }
+            .a{
+                background-color:#03e9f4;
+                color:#050801;
+                box-shadow: 0 0 5px #03e9f4,
+                            0 0 25px #03e9f4,
+                            0 0 50px  #03e9f4,
+                            0 0 200px  #03e9f4;
+                -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+
+            }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label><b><i>First name:</b></i> </label>
+            <input type="text" name ="name" ><br>
+            <br>
+            <label><b><i>Last name:</b></i> </label>
+            <input type="text" name ="name" ><br><br>
+            <label><b>Date of birth:</b></label>
+            <input type="date" name ="DOB"><br><br>
+            <label><b>Email: </b></label>
+            <input type="text" email ="email" placeholder="xyz@gmail.com"><br><br>
+            <label><b>Password:</b></label>
+            <input type="password" name="confirm password"><br><br>
+            
+        </fieldset>
+    </form>
+    <a href="wrapper">
+        <span class="span1"></span>
+        <span class="span2"></span>
+        <span class="span3"></span>
+        <span class="span4"></span>Komala
+    
+</body>
+</html>

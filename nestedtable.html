@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested table</title>
+    <style>
+        table{
+            border: 10px black;
+            margin: 20px auto;
+        } 
+        table table {
+            border:10px black;
+            margin: 10px blue; 
+        }
+        td{
+            padding :20px;
+            text-align: center;
+        }
+        body{
+            text-align: center;
+            margin: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Task 4</h1>
+    <p>Nested Table</p>
+    <table border="10">
+        <tr>
+            <td><strong>Main table row1 and column1</strong></td>
+            <td>Main Table column2
+                <table border="10">
+                <tr>
+                    <td>Inner table row1 and column1</td>
+                    <td>Inner table row1 and column2</td>
+                </tr>
+                <tr>
+                    <td>Inner table row2 and column1</td>
+                    <td>Inner table row2 and column2</td>
+                </tr>
+                <tr>
+                    <td>Inner table row3 and column1</td>
+                    <td>Inner table row3 and column2</td>
+                </tr>
+                </table>
+             </tr>
+                <tr>   
+                <td><strong>Table row2 and column1</strong></td>
+                <td>table row2 and column2</td>
+                </tr>
+            </td>  
+    </table>
+    
+</body>
+</html>
